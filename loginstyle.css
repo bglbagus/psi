@@ -1,0 +1,75 @@
+body{
+	margin-bottom: 0px;
+	padding: 0;
+	background: url(kopi.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+	height: 100vh;
+}
+ h1{
+ 	color: white;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+	font-style: italic;
+	font-family: sans-serif;
+ }
+ marker{
+ 	color: none;
+ }
+ .box-login {
+	width: 320px;
+	height: 420px;
+	background: rgb(0,0,0,0.5); 
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	box-sizing: border-box;
+	border-radius: 20px;
+	padding: 70px;
+	transform: translate(-50%, -50%);
+ }
+  .box-login .box-input h1{
+ 	color: white;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+  }
+ .box-login .box-input input[type="text"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.box-login .box-input input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.box-login .box-input button[type="submit"] {
+	border: none;
+	background-color: #964b00;
+	margin-top: 20px;
+	outline: none;
+	height: 30px;
+	color: black;
+	font-size: 14px;
+	border-radius: 20px;
+	
+}
+.box-login .box-input button[type="submit"]:hover {
+	cursor: pointer;
+	background-color: brown;
+	color: black;
+
+}
